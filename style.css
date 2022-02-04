@@ -23,6 +23,16 @@
     height: 100px;
 }
 
+.header {
+    margin: 10%;
+}
+
+.bg-image{
+    min-height: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
 .bg-orange{
     background-color: #E98529;
 }
