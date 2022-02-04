@@ -21,3 +21,7 @@
 .bg-orange{
     background-color: #E98529;
 }
+
+.hl-text{
+    font-family: 'Roboto Mono', monospace;
+}
