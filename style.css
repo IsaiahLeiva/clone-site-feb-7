@@ -1,0 +1,23 @@
+.box {
+    height: 80px;
+}
+
+.large {
+    height: 715px;
+}
+
+.medium {
+    height: 500px;
+}
+
+.small {
+    height: 300px;
+}
+
+.row div {
+    height: 100px;
+}
+
+.bg-orange{
+    background-color: #E98529;
+}
