@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css' rel='stylesheet'
         integrity='sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC' crossorigin='anonymous'>
+    <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Half-Life</title>
@@ -31,34 +32,29 @@
 
 
 <body class=" debug">
-    <header>
-        <nav class="bg-orange">
-            <div class="row">
-                <div class="col-12 m-auto">
-                    <div class="justify-content-start">
-                        <h1 class="hl-text text-light justify-content-end"><img
-                                class=" img-fluid icon justify-content-start"
-                                src="https://whatthelogo.com/storage/logos/half-life-lambda-134967.png"
-                                alt="lambda">Half-Life
-                        </h1>
+    <div class="container-fluid">
+        <header>
+            <nav class="bg-orange">
+                <div class="row">
+                    <div class="col-12 m-auto sticky-top">
+                        <div class="justify-content-start">
+                            <h1 class="hl-text text-light"><img class=" img-fluid icon justify-content-start"
+                                    src="https://whatthelogo.com/storage/logos/half-life-lambda-134967.png"
+                                    alt="lambda">Half-Life
+                            </h1>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </nav>
-    </header>
-    <main>
-        <div>
-            <div class="container">
-                <div class="row bg-image">
-                    <div class="col-12">
-                        <img class="img-fluid"
-                            src="https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/97888b75aa1e8aaac3923028d4466fea.png"
-                            alt="hl1-gordon">
-                    </div>
+            </nav>
+        </header>
+        <main>
+            <div class="row bg-image">
+                <div class="col-12">
+                    <img class="img-fluid"
+                        src="https://cdn2.steamgriddb.com/file/sgdb-cdn/hero/97888b75aa1e8aaac3923028d4466fea.png"
+                        alt="hl1-gordon">
                 </div>
             </div>
-        </div>
-        <div class="container-fluid">
             <div class="row bg-orange">
                 <div class="col-6 small"></div>
                 <div class="col-6 small"></div>
@@ -98,14 +94,14 @@
                     maiores recusandae aspernatur enim?</div>
             </div>
             <div class="row">
-                <div class="col-4 md-4 p-5 hl-text">
-                    <p></p>
+                //ANCHOR - I'm still unable to get the cards to stack. Not sure which property I'm leaving out.
+                <div class="order-1 col-md-4 hl-text align-top">
                     <div class="card" style="width: 18rem;">
                         <img class="img-fluid"
                             src="https://cdn.neow.in/news/images/uploaded/2017/07/1500369257_main_0_story.jpg"
                             alt="Gordon-Barnacle">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title">Card #1</h5>
                             <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium
                                 officiis
                                 accusantium
@@ -114,12 +110,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4 md-4 p-5 hl-text">
+                <div class="order-2 col-4 col-md-4 hl-text align-middle">
                     <div class="card" style="width: 18rem;">
                         <img class="img-fluid" src="https://cdn.mos.cms.futurecdn.net/CZ3vXigt2M68urCFZQE6oF.jpg"
                             alt="hands-up">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title">Card #2</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore unde
                                 corporis
                                 reiciendis aut
@@ -128,13 +124,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4 md-4 p-5 hl-text">
+                <div class="order-3 col-4 col-md-4 hl-text align-bottom">
                     <div class="card" style="width: 18rem;">
                         <img class="img-fluid"
                             src="https://www.roadtovr.com/wp-content/uploads/2019/11/half-life-alyx-2.jpg"
                             alt="the-citadel">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title">Card #3</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt,
                                 voluptatibus asperiores molestiae impedit dolore delectus earum enim dolorum modi
                                 eligendi!</p>
@@ -143,7 +139,8 @@
                     </div>
                 </div>
             </div>
-    </main>
+        </main>
+    </div>
 </body>
 <footer>
     <div class="container-fluid bg-orange">
