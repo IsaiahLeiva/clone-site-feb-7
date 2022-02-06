@@ -2,9 +2,9 @@
     max-height: 80px;
 }
 
-.body{
-    margin-left: 0%;
-    margin-right: 0%;
+body{
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .icon{
@@ -22,6 +22,8 @@
 
 .row .small {
     height: 300px;
+    margin-left: 0%;
+    margin-right: 0%;
 }
 
 .row div {
