@@ -3,8 +3,7 @@
 }
 
 body{
-    margin-left: 0;
-    margin-right: 0;
+    margin: auto;
 }
 
 .icon{
@@ -24,8 +23,13 @@ body{
     height: 300px;
 }
 
-.row div {
+/* .row div {
     height: 100px;
+} */
+
+.card{
+    margin: 0 auto;
+    box-shadow: 2rem;
 }
 
 .bg-image{
@@ -33,6 +37,7 @@ body{
     background-size: cover;
     background-position: center;
     object-fit: cover;
+    padding: 0;
 }
 
 .bg-orange{
