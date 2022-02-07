@@ -47,13 +47,36 @@ body{
     height: 300px;
 }
 
+.row .exsmall{
+    height: 100px;
+}
+
+.footer{
+    margin: 0;
+}
+
+.combine-row{
+    height: 550px;
+}
+
 /* .row div {
     height: 100px;
 } */
 
-.card{
-    margin: 0 auto;
-    box-shadow: 2rem;
+/* .card-body{
+    height: 45vh;
+    width: 40vh;
+} */
+
+.Combine{
+    justify-content: center;
+    margin: auto;
+    padding: 3rem;
+}
+
+.lorem{
+    display: flex;
+    align-items: center;
 }
 
 .bg-image{
