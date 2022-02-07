@@ -13,6 +13,12 @@ body{
     height: 110%;
     justify-content: end;
     transform: translateY(2rem);
+    padding: 3%;
+}
+
+.list-item{
+    display: flex;
+    align-items: center;
 }
 
 .icon{
@@ -60,5 +66,9 @@ body{
 @media only screen and (max-width: 600px) {
     .cards{
         flex-direction: column;
+    }
+
+    .primary-card{
+        display: none;
     }
   }
