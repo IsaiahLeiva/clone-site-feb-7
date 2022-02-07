@@ -16,6 +16,14 @@ body{
     padding: 3%;
 }
 
+.overlay{
+    position: absolute;
+    width: initial;
+    max-width: initial;
+    left: 2rem;
+    top: 10rem;
+}
+
 .list-item{
     display: flex;
     align-items: center;
