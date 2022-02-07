@@ -6,6 +6,15 @@ body{
     margin: auto;
 }
 
+.primary-card{
+    background-color: white;
+    box-shadow: 10%;
+    width: 85%;
+    height: 110%;
+    justify-content: end;
+    transform: translateY(2rem);
+}
+
 .icon{
     max-width: 5vw;
     max-height: 5vw;
